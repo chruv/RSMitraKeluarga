@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Chatroom_Johan"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/relative1"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:padding="15dp"
+        android:background="@color/dark_blue">
+
+        <RelativeLayout
+            android:id="@+id/relative2"
+            android:clickable="true"
+            android:onClick="back2"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:src="@drawable/arrow_left"/>
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/fotodokter2"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:src="@drawable/johan"
+                android:layout_marginLeft="20dp"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/relative2"
+            android:layout_marginLeft="10dp"
+            android:layout_centerVertical="true">
+
+            <TextView
+                android:id="@+id/nama_dokter2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/johan"
+                android:textSize="22sp"
+                android:textColor="@color/white"
+                android:fontFamily="sans-serif-medium"
+                android:layout_centerVertical="true"/>
+
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_alignParentRight="true"
+                android:src="@drawable/option"
+                android:layout_centerVertical="true"
+                android:clickable="true"/>
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="550dp"
+        android:background="@color/soft_blue">
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="5dp"
+        android:background="@color/soft_blue">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="@drawable/round_chat"
+            android:layout_centerVertical="true"
+            android:hint="Ketik Pesan Anda"
+            android:textColorHint="@color/white"
+            android:paddingLeft="50dp"
+            android:textColor="@color/white"/>
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/emoji"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="12dp"/>
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/send"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="12dp"
+            android:layout_alignParentRight="true"
+            android:clickable="true"/>
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/attach_file"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="55dp"/>
+
+    </RelativeLayout>
+
+</LinearLayout>
