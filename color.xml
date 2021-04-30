@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+    //tambahan
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="tosca">#92FBFF</color>
+    <color name="dark_grey">#4A4A4A</color>
+    <color name="soft_grey">#AFAFAF</color>
+    <color name="soft_blue">#E0F7FF</color>
+    <color name="dark_blue">#36788F</color>
+    <color name="soft_grey2">#CACACA</color>
+    <color name="blue">#6dd5ed</color>
+</resources>
